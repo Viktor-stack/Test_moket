@@ -316,6 +316,29 @@
   opacity: 1;
   color: #78b660;
 }
+.footer {
+  position: relative;
+  &::after {
+    content: url("../img/shape_bg-left.png");
+    position: absolute;
+    bottom: -113px;
+  }
+}
 
+.text__content {
+  position: absolute;
+  text-align: center;
+  left: 380px;
+  right: 380px;
+  bottom: 20px;
+}
+.content__title {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: HnC-Thin, sans-serif;
+}
 
-
+.content_desc {
+  font-size: 14px;
+  font-family: HnC-Thin, sans-serif;
+}
